@@ -1,0 +1,67 @@
+<div class=container>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Healthtap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ">
+                <a class="nav-item nav-link active" href="#">My Care <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">My Record</a>
+                <a class="nav-item nav-link" href="#">Notification</a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<body>
+    <div class=container>
+        <h3 style="padding: 15px;">My Records</h3>
+        <div class="row bgColor">
+            <div class="col-md-3 colStyles">
+                <table class="table">
+                    <tr>
+                        <td><a href="#" routerLink="about">About</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" routerLink="contact-information">Contact Infomation</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" routerLink="health-metrics">Health Metrics</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" routerLink="conditions-and-symptoms">Conditions & Symptoms</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" routerLink="medication">Medications</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" routerLink="allergies">Allergies</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" routerLink="treatment-or-procedures">Treatment Or Procedures</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" routerLink="vaccination">Vaccinations</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" routerLink="lab-tests">Lab Tests</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" routerLink="lifestyle">Lifestyle</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" routerLink="preffered-pharmacy">Preferred Pharmacy</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" routerLink="insurance">Insurance</a></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="col-md-9 colStyles" style="background-color: white; height: auto;">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</body>

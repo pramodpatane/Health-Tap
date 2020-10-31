@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.table {
+    border: none;
+}
+
+td {
+    border: transparent;
+}
+
+table tr a:hover {
+    background-color: rgb(245, 241, 241);
+    color: black;
+    width: 300px;
+}
+
+.navbar {
+    background: #ffffff;
+}
+
+.bgColor {
+    background-color: #f8f9fa;
+}
+
+.colStyles {
+    padding: 20px;
+    box-sizing: border-box;
+}

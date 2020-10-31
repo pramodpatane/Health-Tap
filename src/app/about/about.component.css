@@ -1,0 +1,13 @@
+label {
+    color: gray;
+}
+
+.savebtn {
+    width: 80px;
+    border-radius: 15px;
+    float: right;
+}
+
+.last {
+    clear: both;
+}

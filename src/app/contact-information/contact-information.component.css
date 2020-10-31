@@ -1,0 +1,9 @@
+label {
+    color: grey;
+}
+
+.savebtn {
+    width: 80px;
+    border-radius: 15px;
+    float: right;
+}
